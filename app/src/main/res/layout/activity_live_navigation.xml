@@ -264,7 +264,7 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/navPrevButton"
-                style="@style/Widget.Material3.Button.IconButton.Filled.Tonal"
+                style="@style/Widget.Material3.Button.IconButton"
                 android:layout_width="44dp"
                 android:layout_height="44dp"
                 android:contentDescription="@string/nav_pager_prev_description"
@@ -284,7 +284,7 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/navNextButton"
-                style="@style/Widget.Material3.Button.IconButton.Filled.Tonal"
+                style="@style/Widget.Material3.Button.IconButton"
                 android:layout_width="44dp"
                 android:layout_height="44dp"
                 android:contentDescription="@string/nav_pager_next_description"
