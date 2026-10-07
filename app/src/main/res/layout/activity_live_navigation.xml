@@ -151,7 +151,7 @@
                 android:textColor="@color/white"
                 android:textSize="12sp" />
 
-            <com.google.android.material.materialswitch.MaterialSwitch
+            <com.google.android.material.switchmaterial.SwitchMaterial
                 android:id="@+id/navReminderToggle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
