@@ -23,6 +23,7 @@ android {
         applicationId = "iam699030.gmail.movitop"
         minSdk = 19
         targetSdk = 19
+        multiDexEnabled = true
         versionCode = 3
         versionName = "1.2"
 
@@ -90,6 +91,7 @@ android {
 dependencies {
 
     implementation(libs.androidx.core.ktx)
+    implementation("androidx.multidex:multidex:2.0.1")
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
     implementation(libs.androidx.activity)
