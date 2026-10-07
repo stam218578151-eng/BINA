@@ -37,7 +37,7 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/zoomInButton"
-                style="@style/Widget.Material3.Button.IconButton.Filled.Tonal"
+                style="@style/Widget.Material3.Button.IconButton"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:contentDescription="@string/map_zoom_in"
@@ -51,7 +51,7 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/zoomOutButton"
-                style="@style/Widget.Material3.Button.IconButton.Filled.Tonal"
+                style="@style/Widget.Material3.Button.IconButton"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_marginTop="6dp"
@@ -67,7 +67,7 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/myLocationButton"
-                style="@style/Widget.Material3.Button.IconButton.Filled.Tonal"
+                style="@style/Widget.Material3.Button.IconButton"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_marginTop="6dp"
@@ -82,7 +82,7 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/dataImportButton"
-                style="@style/Widget.Material3.Button.IconButton.Filled.Tonal"
+                style="@style/Widget.Material3.Button.IconButton"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_marginTop="6dp"
