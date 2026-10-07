@@ -1,0 +1,286 @@
+<resources>
+    <string name="app_name" translatable="false">Movitop</string>
+
+    <!-- Splash screen — brand names are shown in English regardless of
+         locale (same convention as "Powered by Android" on stock boot). -->
+    <string name="splash_logo_text" translatable="false">MovitTop</string>
+    <string name="splash_powered_by" translatable="false">Powered by</string>
+    <string name="splash_powered_by_motis" translatable="false">Motis</string>
+    <string name="splash_loading_data">Loading data…</string>
+
+    <!-- MOTIS foreground service -->
+    <string name="motis_channel_name">Navigation Engine</string>
+    <string name="motis_channel_description">Keeps the offline routing engine running</string>
+    <string name="motis_engine_starting">Starting navigation engine\u2026</string>
+    <string name="motis_engine_ready">Navigation Engine is Ready</string>
+    <string name="motis_engine_stopped">Navigation engine stopped</string>
+
+    <!-- Origin/destination search form -->
+    <string name="search_origin_hint">Origin</string>
+    <string name="search_destination_hint">Destination</string>
+    <string name="search_button">Search route</string>
+    <string name="search_tap_to_choose">Tap to search</string>
+    <string name="search_origin_title">Choose origin</string>
+    <string name="search_destination_title">Choose destination</string>
+    <string name="search_location_hint">Search address or place\u2026</string>
+    <string name="search_no_results">No places found. Try a different name.</string>
+    <string name="search_use_current_location">My current location</string>
+    <string name="place_type_stop">Stop</string>
+    <string name="place_type_coordinate">Point</string>
+    <string name="place_type_place">Place</string>
+    <string name="place_type_street">Street</string>
+    <string name="place_type_address">Address</string>
+    <string name="search_locating_current_location">Locating…</string>
+    <string name="country_israel">Israel</string>
+    <string name="recent_places_title">Recent</string>
+    <string name="pinned_set_home">Set home</string>
+    <string name="pinned_set_work">Set work</string>
+    <string name="pinned_pick_prompt_home">Choose a place to save as home</string>
+    <string name="pinned_pick_prompt_work">Choose a place to save as work</string>
+    <string name="pinned_picking_active">Choosing…</string>
+    <string name="pinned_pick_cancel">Cancel</string>
+    <string name="pinned_saved_home">Saved as home</string>
+    <string name="pinned_saved_work">Saved as work</string>
+
+    <!-- Results bottom sheet -->
+    <string name="mode_transit">Public transit</string>
+    <string name="mode_driver">Driver</string>
+    <string name="mode_bike">Bike</string>
+    <string name="mode_walking">Walking</string>
+    <string name="mode_taxi">Taxi</string>
+    <string name="duration_minutes">%1$d min</string>
+    <string name="duration_hours">%1$s hours</string>
+    <string name="route_option_time_range">%1$s–%2$s</string>
+
+    <!-- Route detail steps -->
+    <string name="route_details_title">Route details</string>
+    <string name="rd_depart">Depart from %1$s</string>
+    <string name="rd_arrive">Arrive at %1$s</string>
+    <string name="rd_walk_to_stop">Walk to the bus stop (5 min)</string>
+    <string name="rd_bus_line">Line 480 toward Jerusalem</string>
+    <string name="rd_bus_operator">Egged · Central Station</string>
+    <string name="rd_get_off">Get off at the Central Station</string>
+    <string name="rd_walk_to_dest">Walk to your destination (4 min)</string>
+    <string name="rd_drive">Drive via Route 1</string>
+    <string name="rd_taxi">Taxi ordered — on the way</string>
+    <string name="rd_bike">Ride along the bike path</string>
+    <string name="rd_walk_full">Direct walking route</string>
+    <string name="route_step_walk_to">Walk to %1$s</string>
+    <string name="route_step_bike_to">Bike to %1$s</string>
+    <string name="route_step_drive_to">Drive to %1$s</string>
+    <string name="route_step_transit_to">Line %1$s to %2$s</string>
+    <string name="route_label_with_headsign">Line %1$s toward %2$s</string>
+    <string name="route_label_plain">Line %1$s</string>
+    <string name="route_step_time_range">%1$s–%2$s</string>
+    <string name="route_step_depart_only">Departs %1$s</string>
+    <string name="route_step_arrive_only">Arrives %1$s</string>
+    <string name="route_option_via_stop">From %1$s</string>
+    <string name="distance_km">%.1f km</string>
+    <string name="distance_meters">%1$d m</string>
+    <string name="direct_modes_title">More ways to go</string>
+    <string name="transit_options_title">Suggested routes</string>
+    <string name="route_switch_title">Switch route</string>
+
+    <!-- Driver / taxi station picker -->
+    <string name="car_service_call_description">Call</string>
+    <string name="driver_stations_dialog_title">Driver — call a station</string>
+    <string name="driver_stations_dialog_subtitle">Pick a service to call and book your ride</string>
+    <string name="taxi_stations_dialog_title">Taxi — stations near %1$s</string>
+    <string name="taxi_stations_dialog_subtitle">Pick a station to call and book your ride</string>
+
+    <!-- Turn-by-turn walking directions -->
+    <string name="nav_walk_continue_to">Continue to %1$s</string>
+    <string name="nav_dir_depart">Head out</string>
+    <string name="nav_dir_left">Turn left</string>
+    <string name="nav_dir_hard_left">Turn sharply left</string>
+    <string name="nav_dir_slightly_left">Bear left</string>
+    <string name="nav_dir_right">Turn right</string>
+    <string name="nav_dir_hard_right">Turn sharply right</string>
+    <string name="nav_dir_slightly_right">Bear right</string>
+    <string name="nav_dir_uturn">Make a U-turn</string>
+    <string name="nav_dir_continue">Continue straight</string>
+    <string name="nav_dir_elevator">Take the elevator</string>
+    <string name="nav_dir_stairs">Take the stairs</string>
+    <string name="nav_dir_default">Continue</string>
+    <string name="nav_dir_with_street">%1$s onto %2$s</string>
+
+    <!-- Offline map -->
+    <string name="map_missing_log">Offline map not found at %1$s — showing empty map.</string>
+    <string name="no_offline_data_banner">No offline transit data is installed on this device yet.</string>
+    <string name="no_offline_data_action">Import</string>
+
+    <!-- Network / errors -->
+    <string name="search_error_network">Oops, my satellite link dropped 🛰️. Is the routing engine running?</string>
+    <string name="search_error_no_data">No offline transit data is installed on this device yet. Tap the import button to add it.</string>
+    <string name="search_error_place">I couldn\'t find %1$s on the map 🗺️. Try a more specific name, maybe with the city.</string>
+    <string name="search_no_routes">I couldn\'t find any route for that. Try another destination?</string>
+
+    <!-- Live navigation -->
+    <string name="start_navigation">Start navigation</string>
+    <string name="nav_confirm_board">I boarded, continue</string>
+    <string name="nav_finished">You have arrived 🎉</string>
+    <string name="nav_distance_meters">%1$d m away</string>
+    <string name="nav_walk_instruction">%1$s · %2$d m</string>
+    <string name="nav_board_instruction">Board %1$s at %2$s</string>
+    <string name="nav_board_instruction_timed">Board %1$s at %2$s (departs %3$s)</string>
+    <string name="nav_ride_instruction">Riding %1$s → get off at %2$s</string>
+    <string name="nav_ride_instruction_timed">Riding %1$s → get off at %2$s (arrives %3$s)</string>
+    <string name="nav_arrive_instruction">Arrive at %1$s</string>
+    <string name="nav_unavailable">Live navigation isn\'t available for this route.</string>
+
+    <!-- Live navigation — map-centric screen (header, reminder, pager, overview) -->
+    <string name="nav_header_title">LIVE Navigation</string>
+    <string name="nav_close_description">End navigation</string>
+    <string name="nav_close_confirm_title">End navigation?</string>
+    <string name="nav_close_confirm_message">This ends your live navigation session.</string>
+    <string name="nav_close_confirm_end">End</string>
+    <string name="nav_close_confirm_cancel">Cancel</string>
+    <string name="nav_chevron_description">Full trip overview</string>
+    <string name="nav_steps_overview_title">Trip overview</string>
+    <string name="nav_reminder_toggle_label">Get-off alerts</string>
+    <string name="nav_reminder_settings_description">Reminder settings</string>
+    <string name="nav_reminder_dialog_title">Get-off reminder</string>
+    <string name="nav_reminder_stops_before">Alert me %1$d stops before</string>
+    <string name="nav_reminder_alert_mode_label">Alert mode</string>
+    <string name="nav_reminder_mode_sound">Sound</string>
+    <string name="nav_reminder_mode_vibrate">Vibrate</string>
+    <string name="nav_reminder_mode_both">Both</string>
+    <string name="nav_reminder_volume">Volume</string>
+    <string name="nav_voice_nav_placeholder">Voice navigation (coming soon)</string>
+    <string name="nav_reminder_fired_message">In %1$d stops, get off at %2$s</string>
+    <string name="nav_stops_remaining_header">Remaining stops</string>
+    <string name="nav_depart_at">Depart at %1$s</string>
+    <string name="nav_pager_prev_description">Previous step</string>
+    <string name="nav_pager_next_description">Next step</string>
+    <string name="nav_resume_chip">Resume navigation</string>
+    <string name="nav_resume_chip_to">Resume navigation to %1$s</string>
+    <string name="nav_reminder_save">Save</string>
+    <string name="nav_card_label_walk">Walking</string>
+    <string name="nav_card_label_board">Board</string>
+    <string name="nav_card_label_alight">Get off</string>
+    <string name="nav_card_label_arrive">Arrival</string>
+
+    <!-- Trip time picker -->
+    <string name="trip_time_now">Now</string>
+    <string name="trip_time_depart_at">Depart at %1$s</string>
+    <string name="trip_time_arrive_by">Arrive by %1$s</string>
+    <string name="trip_time_dialog_title">Choose trip time</string>
+    <string name="trip_time_mode_depart">Depart at</string>
+    <string name="trip_time_mode_arrive">Arrive by</string>
+    <string name="trip_time_quick_now">Now</string>
+    <string name="trip_time_quick_15">+15 min</string>
+    <string name="trip_time_quick_30">+30 min</string>
+    <string name="trip_time_quick_60">+1 hour</string>
+    <string name="trip_time_pick_custom">Pick date &amp; time…</string>
+
+    <!-- Settings -->
+    <string name="settings_button_description">Settings</string>
+    <string name="settings_title">Settings</string>
+    <string name="settings_language_title">Language</string>
+    <string name="settings_language_hebrew">עברית (Hebrew)</string>
+    <string name="settings_language_english">English</string>
+    <string name="line_times_button_description">Line times</string>
+    <string name="line_times_title">Line times</string>
+    <string name="line_times_hint">Line number or name…</string>
+    <string name="line_times_no_results">No lines found for that search.</string>
+    <string name="line_times_no_departures">No departures found for this direction on this day.</string>
+    <string name="line_times_no_stops">No stops found for this trip.</string>
+    <string name="line_times_unavailable">Line schedule data isn\'t installed on this device yet.</string>
+    <string name="line_times_favorites_title">Saved lines</string>
+    <string name="line_times_favorites_empty">No saved lines yet. Search a line and tap the star to save it.</string>
+    <string name="line_times_back_description">Back</string>
+    <string name="line_times_direction_toggle_description">Switch direction</string>
+    <string name="line_times_timetable_eyebrow">Timetable</string>
+    <string name="line_times_trip_stops_eyebrow">All stops · departs %1$s</string>
+    <string name="favorite_star_add_description">Save line</string>
+    <string name="favorite_star_remove_description">Remove saved line</string>
+
+    <!-- Map controls -->
+    <string name="map_zoom_in">Zoom in</string>
+    <string name="map_zoom_out">Zoom out</string>
+    <string name="map_my_location">Center on my location</string>
+    <string name="map_location_unavailable">Couldn\'t get your location. Check GPS is on and permission is granted.</string>
+
+    <!-- Nearby departures -->
+    <string name="nearby_empty">No upcoming departures found nearby. Try moving closer to a stop, or check GPS is on.</string>
+    <string name="nearby_no_offline_data">No offline transit data is installed on this device yet — import it from the main map screen first.</string>
+    <string name="nearby_minutes_until">in %1$d min</string>
+    <string name="nearby_departing_now">Departing now</string>
+    <string name="nearby_distance_meters">%1$d m away</string>
+    <string name="nearby_label_with_distance">%1$s · %2$s</string>
+
+    <!-- Home sheet (search entry + nearby stops/POIs) -->
+    <string name="home_search_prompt">Where to?</string>
+    <string name="trip_history_title">Recent trips</string>
+    <string name="trip_history_pin_description">Pin trip</string>
+    <string name="trip_history_arrow">↓</string>
+    <string name="nearby_category_all">All</string>
+    <string name="nearby_sort_distance">Sort: Nearest</string>
+    <string name="nearby_sort_open_now">Sort: Open now</string>
+
+    <!-- POI categories (data/Poi.kt's PoiCategory + the Home sheet's "transit"/"charging" filter chips) -->
+    <string name="poi_category_transit">Public transit</string>
+    <string name="poi_category_charging">Rav-Kav charging</string>
+    <string name="poi_category_food_drink">Food &amp; drink</string>
+    <string name="poi_category_shopping">Shopping</string>
+    <string name="poi_category_health">Health</string>
+    <string name="poi_category_finance">Finance</string>
+    <string name="poi_category_leisure">Leisure</string>
+    <string name="poi_category_other">Other</string>
+    <string name="poi_label_category">Category</string>
+    <string name="poi_open_now">Open now</string>
+    <string name="poi_closed_now">Closed now</string>
+    <string name="poi_set_as_destination">Set as destination</string>
+
+    <!-- Offline data import -->
+    <string name="data_import_button_description">Import updated transit data</string>
+    <string name="data_import_title">Import updated transit data</string>
+    <string name="data_import_explanation">Pick a data package file (copied here over USB/SD card from your computer after running compile_motis_graph.sh + package_motis_data.sh). No internet is used — the file must already be on this device.</string>
+    <string name="data_import_pick_file">Choose data package file…</string>
+    <string name="data_import_in_progress">Importing… this may take a moment.</string>
+    <string name="data_import_success">Import complete (%1$d files). Engine restarted with the new data.</string>
+    <string name="data_import_failure">Import failed: %1$s</string>
+    <string name="data_import_error_open_failed">Could not open the selected file</string>
+    <string name="data_import_error_invalid_package">The selected file isn\'t a valid data package (missing config.yml)</string>
+    <string name="data_import_error_unknown">Unknown error</string>
+
+    <!-- Map station / Rav-Kav charging markers -->
+    <string name="dialog_close_button">Close</string>
+    <string name="stop_info_no_routes">No upcoming departures found for this stop right now.</string>
+    <string name="stop_departures_back_description">Back</string>
+    <string name="stop_line_schedule_title">Route %1$s · %2$s</string>
+    <string name="stop_line_also_at">Also at %1$s</string>
+
+    <!-- Relative time formatting (RelativeTime.kt) -->
+    <string name="weekday_sunday">Sunday</string>
+    <string name="weekday_monday">Monday</string>
+    <string name="weekday_tuesday">Tuesday</string>
+    <string name="weekday_wednesday">Wednesday</string>
+    <string name="weekday_thursday">Thursday</string>
+    <string name="weekday_friday">Friday</string>
+    <string name="weekday_saturday">Saturday</string>
+    <string name="relative_hour_singular">1 hour</string>
+    <string name="relative_hour_dual">2 hours</string>
+    <string name="relative_hours_plural">%1$d hours</string>
+    <string name="relative_in_hours_only">in %1$s</string>
+    <string name="relative_in_hours_and_minutes">in %1$s %2$d min</string>
+    <string name="relative_departs_on_day">Departs %1$s at %2$s</string>
+    <string name="ravkav_label_city">City</string>
+    <string name="ravkav_label_address">Address</string>
+    <string name="ravkav_label_agency">Operator</string>
+    <string name="ravkav_label_phone">Phone</string>
+    <string name="ravkav_label_hours">Opening hours</string>
+    <string name="ravkav_station_generic_name">Rav-Kav charging station</string>
+    <string name="ravkav_accepts_cash">Accepts cash</string>
+    <string name="ravkav_accepts_credit_card">Accepts credit card</string>
+    <string name="ravkav_accessible">Wheelchair accessible</string>
+    <string name="ravkav_hours_closed">Closed</string>
+    <string name="ravkav_days_sun_thu">Sun–Thu</string>
+    <string name="ravkav_days_sun">Sun</string>
+    <string name="ravkav_days_mon">Mon</string>
+    <string name="ravkav_days_tue">Tue</string>
+    <string name="ravkav_days_wed">Wed</string>
+    <string name="ravkav_days_thu">Thu</string>
+    <string name="ravkav_days_fri">Fri</string>
+    <string name="ravkav_days_sat">Sat</string>
+</resources>

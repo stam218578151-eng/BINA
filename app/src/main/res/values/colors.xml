@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Brand (Waze-like vivid, premium blue) -->
+    <color name="movitop_primary">#2D6CDF</color>
+    <color name="movitop_primary_dark">#1B4FB0</color>
+    <color name="movitop_on_primary">#FFFFFF</color>
+    <color name="movitop_accent">#FF6B4A</color>
+
+    <!-- Light theme surfaces -->
+    <color name="movitop_background">#F5F7FB</color>
+    <color name="movitop_surface">#FFFFFF</color>
+    <color name="movitop_text_primary">#13171F</color>
+    <color name="movitop_text_secondary">#5A6473</color>
+    <color name="movitop_divider">#E2E7F0</color>
+
+    <!-- Chat bubbles (light) -->
+    <color name="movitop_bubble_incoming">#EAEEF6</color>
+    <color name="movitop_on_bubble_incoming">#13171F</color>
+    <color name="movitop_bubble_outgoing">#2D6CDF</color>
+    <color name="movitop_on_bubble_outgoing">#FFFFFF</color>
+
+    <!-- Input + chips (light) -->
+    <color name="movitop_input_bg">#FFFFFF</color>
+    <color name="movitop_input_stroke">#D5DCE8</color>
+    <color name="movitop_chip_bg">#EAEEF6</color>
+    <color name="movitop_chip_text">#2D6CDF</color>
+
+    <!-- Saved-lines star -->
+    <color name="movitop_star_active">#F4A300</color>
+
+    <!-- "Leaves in X min" countdown -->
+    <color name="movitop_departs_soon">#1F9254</color>
+
+    <!-- Rav-Kav charging-station map marker -->
+    <color name="movitop_ravkav_marker">#0E8F7A</color>
+
+    <!-- POI category markers/chips (see data/Poi.kt's PoiCategory) -->
+    <color name="movitop_poi_food_drink">#E2711D</color>
+    <color name="movitop_poi_shopping">#8E44AD</color>
+    <color name="movitop_poi_health">#D7263D</color>
+    <color name="movitop_poi_finance">#1B5E20</color>
+    <color name="movitop_poi_leisure">#1976D2</color>
+    <color name="movitop_poi_other">#5A6473</color>
+</resources>
