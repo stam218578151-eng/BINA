@@ -29,7 +29,7 @@ import android.widget.SeekBar
 import android.widget.TextView
 import com.google.android.material.button.MaterialButton
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import com.google.android.material.materialswitch.MaterialSwitch
+import com.google.android.material.switchmaterial.SwitchMaterial
 import com.google.android.material.snackbar.Snackbar
 import iam699030.gmail.movitop.data.AlertMode
 import iam699030.gmail.movitop.data.ReminderSettingsRepository
@@ -79,7 +79,7 @@ class LiveNavigationActivity : AppCompatActivity() {
     private lateinit var instructionText: TextView
     private lateinit var distanceText: TextView
 
-    private lateinit var reminderToggle: MaterialSwitch
+    private lateinit var reminderToggle: SwitchMaterial
     private lateinit var reminderSettingsButton: MaterialButton
 
     private lateinit var instructionCardContent: View
@@ -446,10 +446,10 @@ class LiveNavigationActivity : AppCompatActivity() {
     /** Routes D-Pad focus past the full-bleed MapView, which would otherwise win Android's default spatial focus search. */
     private fun updateFocusChain() {
         val afterReminderId = if (stopsRecycler.visibility == View.VISIBLE) R.id.navStopsRecycler else R.id.navPrevButton
-        reminderSettingsButton.nextFocusDownId = afterReminderId
-        reminderToggle.nextFocusDownId = afterReminderId
-        prevButton.nextFocusUpId = if (stopsRecycler.visibility == View.VISIBLE) R.id.navStopsRecycler else R.id.navReminderSettingsButton
-        nextButton.nextFocusUpId = prevButton.nextFocusUpId
+        reminderSettingsButton.setNextFocusDownId(afterReminderId)
+        reminderToggle.setNextFocusDownId(afterReminderId)
+        prevButton.setNextFocusUpId(if (stopsRecycler.visibility == View.VISIBLE) R.id.navStopsRecycler else R.id.navReminderSettingsButton)
+        nextButton.setNextFocusUpId(prevButton.getNextFocusUpId())
     }
 
     private fun confirmEndNavigation() {
